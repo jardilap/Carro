@@ -11,9 +11,11 @@ package edu.unal.poo.modelo;
  */
 public class Ruedas {
     private String marca;
+    private int tamPulg;
 
-    public Ruedas(String marca) {
+    public Ruedas(String marca, int tamPulg) {
         this.marca = marca;
+        this.tamPulg = tamPulg;
     }
 
     public String getMarca() {
@@ -22,6 +24,14 @@ public class Ruedas {
 
     public void setMarca(String marca) {
         this.marca = marca;
+    }
+
+    public int getTamPulg() {
+        return tamPulg;
+    }
+
+    public void setTamPulg(int tamPulg) {
+        this.tamPulg = tamPulg;
     }
     
     
